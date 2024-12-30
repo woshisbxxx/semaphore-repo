@@ -1,6 +1,6 @@
 ---
 - hosts: website
-  become: true
+  become: apps
   tasks:
     - name: Print OS info
       ansible.builtin.setup:
